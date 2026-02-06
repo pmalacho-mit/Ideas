@@ -28,3 +28,5 @@ Hi!!
 ```
 - inline
 - Hello <template data-src="./example.md">**world**</template>
+- variables
+- ```Hello <template data-var="question" />```
