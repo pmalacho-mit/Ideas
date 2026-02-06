@@ -27,4 +27,4 @@ Hi!!
 </template>
 ```
 - inline
-- Hello <template data-src="./example.md" >world</template>
+- Hello <template data-src="./example.md">**world**</template>
