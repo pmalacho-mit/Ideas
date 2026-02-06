@@ -10,7 +10,7 @@
 
 Check this out:
 
-<template data-include="./example.md" />
+<template data-src="./example.md" />
 ```
   - expanded
 ```md
@@ -18,7 +18,7 @@ Check this out:
 
 Check this out:
 
-<template data-include="./example.md">
+<template data-src="./example.md">
  
 ## Some title
 
