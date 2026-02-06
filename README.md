@@ -6,16 +6,16 @@
 [] Markdown inclusion parser that uses
 
 
- <embed />
+ <template />
 
 Hello
 
 World
 
- <embed>
+ <template>
    
  # aha
  
  Hi!!
  
- </embed>
+ </template>
