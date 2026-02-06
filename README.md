@@ -4,6 +4,9 @@
 - [ ] Customize suede to be able to support branches other than `release` 
   - Helpful for monorepo to support several languages, but have a single test bed environment
 - [ ] Markdown inclusion parser that uses `template` tag with `data` attributes:
+  - expanded
+```md
+```
   - unexpanded
   ```md
 # Title
