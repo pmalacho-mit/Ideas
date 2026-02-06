@@ -12,8 +12,8 @@ Hello
 
 World
 
- <embed>
+ <link>
  # aha
  
  Hi!!
- </embed>
+ </link>
