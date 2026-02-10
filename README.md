@@ -31,3 +31,11 @@ Hi!!
 - Hello <template data-src="./example.md">**world**</template>
 - variables
 - ```Hello <template data-var="question" />```
+
+```
+<template id="tutor" data-match="tutor*" data-prefix="Tutor: \n" data-suffix="" />
+
+<template id="user" data-match="user*" data-prefix="User: \n" data-suffix="" />
+
+<template data-src="./user* ./tutor*" data-delimiter=" " data-templates="tutor user" />
+```
