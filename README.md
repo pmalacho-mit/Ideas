@@ -38,6 +38,8 @@ Example on how to make codeblocks
 <template id="ts" data-match="*.ts" data-prefix="```ts\n" data-suffix="\n```" />
 
 <template data-src="./example.ts" data-wrapper="ts" />
+
+<template data-src="./another.ts" data-wrapper="ts" />
 ```
 
 Example on how to create chats, and have custom wrappers based on file name:
