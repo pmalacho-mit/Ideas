@@ -37,5 +37,5 @@ Hi!!
 
 <template id="user" data-match="user*" data-prefix="User: \n" data-suffix="" />
 
-<template data-src="./user* ./tutor*" data-delimiter=" " data-templates="tutor user" />
+<template data-delimiter=" " data-src="./user* ./tutor*" data-templates="tutor user" data-sort="created" data-order="desc" data-limit="10" />
 ```
