@@ -39,3 +39,13 @@ Hi!!
 
 <template data-delimiter=" " data-src="./user* ./tutor*" data-wrapper="tutor user" data-sort="created" data-order="desc" data-limit="10" />
 ```
+
+Hi 
+
+<template id="tutor" data-match="tutor*" data-prefix="Tutor: \n" data-suffix="" />
+
+<template id="user" data-match="user*" data-prefix="User: \n" data-suffix="" />
+
+<template data-delimiter=" " data-src="./user* ./tutor*" data-wrapper="tutor user" data-sort="created" data-order="desc" data-limit="10" />
+
+Hello
