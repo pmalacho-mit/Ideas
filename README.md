@@ -32,6 +32,16 @@ Hi!!
 - variables
 - ```Hello <template data-var="question" />```
 
+Example on how to make codeblocks
+
+```md
+<template id="ts" data-match="*.ts" data-prefix="```ts\n" data-suffix="\n```" />
+
+<template data-src="./example.ts" data-wrapper="ts" />
+```
+
+Example on how to create chats, and have custom wrappers based on file name:
+
 ```md
 <template id="tutor" data-match="tutor*" data-prefix="Tutor: \n" data-suffix="" />
 
@@ -39,13 +49,3 @@ Hi!!
 
 <template data-delimiter=" " data-src="./user* ./tutor*" data-wrapper="tutor user" data-sort="created" data-order="desc" data-limit="10" />
 ```
-
-Hi 
-
-<template id="tutor" data-match="tutor*" data-prefix="Tutor: \n" data-suffix="" />
-
-<template id="user" data-match="user*" data-prefix="User: \n" data-suffix="" />
-
-<template data-delimiter=" " data-src="./user* ./tutor*" data-wrapper="tutor user" data-sort="created" data-order="desc" data-limit="10" />
-
-Hello
