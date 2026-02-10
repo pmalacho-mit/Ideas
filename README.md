@@ -32,7 +32,7 @@ Hi!!
 - variables
 - ```Hello <template data-var="question" />```
 
-```
+```md
 <template id="tutor" data-match="tutor*" data-prefix="Tutor: \n" data-suffix="" />
 
 <template id="user" data-match="user*" data-prefix="User: \n" data-suffix="" />
